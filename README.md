@@ -1,4 +1,5 @@
 # html-css
-Curso de HTML5 e CSS3 do CursoemVideo
+Ola, eu sou Carlos Nathan
 
-Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
+Eu estou criando sites com 10 anos de idade
+já fiz curso de JavaScript básico, Algorítimos e estou fazendo curso de HTML5 e CSS3
