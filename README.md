@@ -6,6 +6,6 @@ já fiz curso de JavaScript básico, Algorítimos e estou fazendo curso de HTML5
 
 Estes são meus maiores projetos:
 
-<a href="/html-css/exercícios/exd012/index.html">Projeto Cordel</a> <a href="/projeto-android/index.html">Projeto Android</a>
+<a href="/html-css/exercícios/exd012/index.html">Projeto Cordel</a> <br><a href="/projeto-android/index.html">Projeto Android</a>
 
 Se estiver precisando de uma Chácara para alugar, visite este site: <a href="carlos-nathan.github.io/aluguel/">Aluguel de Chácara!</a>
