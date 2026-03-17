@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" id="icor" name="cor">
+        </p>
+        <p>
+            <label for="inivel">nível de satisfação: </label>
+            <input type="range" id="inivel" name="nivel" min="1" max="5" value="2">
+        </p>
+        <p>
+            <label for="ifoto">Foto do perfil</label>
+            <input type="file" id="ifoto" name="foto">
+        </p>
+    </form>
+</body>
+</html>
