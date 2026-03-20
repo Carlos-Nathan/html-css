@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +8,14 @@
 <body>
     <!-- 7:05 / 15:51 -->
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.js" method="get">
         <div>
             <label for="iest">Estado: </label>
             <select name="estado" id="iest">
 
                 <optgroup label="Região Sudeste">
                     <option value="MG">Minas Gerais</option>
-                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RJ">Rio de Janeiro</option>  
                     <option value="SP" selected>São Paulo</option>
                 </optgroup>
 
@@ -26,6 +26,20 @@
                 </optgroup>
             </select>
         </div><br>
+        <div>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="profissao" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Administrador</option>
+                <option>Contabilista</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="msg" id="imsg" rows="4" cols="50" placeholder="coloque aqui, a sua mensagem"></textarea>
+        </div>
         <div>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
