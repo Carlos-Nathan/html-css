@@ -23,8 +23,13 @@
     </form>
     <script>
         function calcidade() {
-            var nasc = document.querySelector('input#iano').value
-            var vi = getFullYear()
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+            if (iano.value > atual) {
+                alert('Ano de nascimento inválido!')
+                iano.value = 0
+                iidade.innerHTML = 0
+            }
         }
     </script>
 </body>
